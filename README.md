@@ -98,7 +98,7 @@ GitHub: [sandra000666](https://github.com/sandra000666)
 
 ## Application Preview
 
-![InterviewIQ Home Page](InterviewIQ-Home.png)
+![InterviewIQ Home Page](./InterviewIQ-Home.png)
 
 ---
 
