@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InterviewIQ - Choose Category</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="category-container">
+
+        <div class="category-card">
+
+            <div class="logo">
+                Interview<span>IQ</span>
+            </div>
+
+            <h1>Choose Your Interview</h1>
+
+            <p class="category-subtitle">
+                Select a programming category to begin your interview.
+            </p>
+
+
+            <div class="category-grid">
+
+                <button class="category-btn"
+                        onclick="startInterview('General Programming')">
+                    🧠
+                    <span>General Programming</span>
+                </button>
+
+                <button class="category-btn"
+                        onclick="startInterview('Python')">
+                    🐍
+                    <span>Python</span>
+                </button>
+
+                <button class="category-btn"
+                        onclick="startInterview('Java')">
+                    ☕
+                    <span>Java</span>
+                </button>
+
+                <button class="category-btn"
+                        onclick="startInterview('C')">
+                    💻
+                    <span>C</span>
+                </button>
+
+                <button class="category-btn"
+                onclick="startInterview('C++')">
+                💻
+                <span>C++</span>
+                </button>
+
+                <button class="category-btn"
+                        onclick="startInterview('SQL')">
+                    🗄️
+                    <span>SQL</span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script>
+
+       function startInterview(category) {
+
+         window.location.href =
+        "/interview?category=" + encodeURIComponent(category);
+        }
+
+    </script>
+
+</body>
+</html>

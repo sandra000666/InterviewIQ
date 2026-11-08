@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InterviewIQ - Interview History</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="result-container">
+
+        <div class="result-card history-card">
+
+            <div class="result-icon">📊</div>
+
+            <h1>Interview History</h1>
+
+            <p class="result-subtitle">
+                Review your previous interview performance.
+            </p>
+
+            <div id="historyList"></div>
+
+            <div id="noHistory" class="performance">
+                No interview history yet. 🚀
+            </div>
+
+            <button class="start-btn" onclick="goHome()">
+                Back to Home
+            </button>
+
+            <button class="home-btn" onclick="clearHistory()">
+                Clear History
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script>
+
+        const historyList =
+            document.getElementById("historyList");
+
+        const noHistory =
+            document.getElementById("noHistory");
+
+
+        function displayHistory() {
+
+            const history =
+                JSON.parse(
+                    localStorage.getItem("interviewHistory")
+                ) || [];
+
+
+            if (history.length === 0) {
+
+                noHistory.style.display = "block";
+
+                return;
+            }
+
+
+            noHistory.style.display = "none";
+
+
+            historyList.innerHTML = "";
+
+
+            history.forEach((item, index) => {
+
+                const percentage =
+                    item.totalQuestions > 0
+                        ? Math.round(
+                            (item.totalScore /
+                            (item.totalQuestions * 10)) * 100
+                        )
+                        : 0;
+
+
+                const historyItem =
+                    document.createElement("div");
+
+                historyItem.className =
+                    "history-item";
+
+
+                historyItem.innerHTML = `
+
+                    <div class="history-header">
+
+                        <strong>
+                            ${item.category}
+                        </strong>
+
+                        <span>
+                            ${item.date}
+                        </span>
+
+                    </div>
+
+
+                    <div class="history-score">
+
+                        Score:
+                        ${item.totalScore}
+                        /
+                        ${item.totalQuestions * 10}
+
+                        (${percentage}%)
+
+                    </div>
+
+                `;
+
+
+                historyList.appendChild(historyItem);
+
+            });
+
+        }
+
+
+        function clearHistory() {
+
+            if (confirm("Clear all interview history?")) {
+
+                localStorage.removeItem(
+                    "interviewHistory"
+                );
+
+                displayHistory();
+
+            }
+
+        }
+
+
+        function goHome() {
+
+            window.location.href = "/";
+
+        }
+
+
+        displayHistory();
+
+    </script>
+
+</body>
+
+</html>

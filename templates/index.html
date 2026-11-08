@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InterviewIQ - AI Programming Interview Trainer</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <main class="home-container">
+
+        <div class="logo">
+            Interview<span>IQ</span>
+        </div>
+
+        <h2 class="tagline">
+            AI Programming Interview Trainer
+        </h2>
+
+        <p class="description">
+            Practice programming interview questions, improve your answers,
+            and build the confidence you need to succeed.
+        </p>
+
+       <button class="start-btn" onclick="window.location.href='/category'">
+         Start Interview
+        </button>
+
+         <button class="history-btn" onclick="window.location.href='/history'">
+            📊 Interview History
+         </button>
+        <section class="features">
+
+            <div class="feature">
+                <h3>💻 Programming</h3>
+                <p>Practice real programming interview questions.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🤖 AI Feedback</h3>
+                <p>Get intelligent feedback on your answers.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📊 Performance</h3>
+                <p>Understand your strengths and improve your skills.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        function startInterview() {
+            alert("Your interview is starting!");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,633 @@
+[
+    {
+        "id": 1,
+        "question": "What is a variable in programming?",
+        "difficulty": "Beginner",
+        "hint": "Explain what a variable stores and give a simple example.",
+        "category": "General Programming"
+    },
+    {
+        "id": 2,
+        "question": "What is a data type?",
+        "difficulty": "Beginner",
+        "hint": "Explain what a data type tells the program about a value.",
+        "category": "General Programming"
+    },
+    {
+        "id": 3,
+        "question": "What is the difference between a for loop and a while loop?",
+        "difficulty": "Easy",
+        "hint": "Explain when each type of loop is commonly used.",
+        "category": "General Programming"
+    },
+    {
+        "id": 4,
+        "question": "What is an if-else statement?",
+        "difficulty": "Easy",
+        "hint": "Explain how it is used to make decisions in a program.",
+        "category": "General Programming"
+    },
+    {
+        "id": 5,
+        "question": "What is a function and why is it useful?",
+        "difficulty": "Medium",
+        "hint": "Explain how functions improve code organization and reusability.",
+        "category": "General Programming"
+    },
+    {
+        "id": 6,
+        "question": "What is the difference between a parameter and an argument?",
+        "difficulty": "Medium",
+        "hint": "Explain their roles when calling a function.",
+        "category": "General Programming"
+    },
+    {
+        "id": 7,
+        "question": "What is an array and when would you use one?",
+        "difficulty": "Medium",
+        "hint": "Explain how an array stores multiple values.",
+        "category": "General Programming"
+    },
+    {
+        "id": 8,
+        "question": "What is the difference between an array and a linked list?",
+        "difficulty": "Hard",
+        "hint": "Compare their structure, memory usage, and access speed.",
+        "category": "General Programming"
+    },
+    {
+        "id": 9,
+        "question": "What is a stack and how does it work?",
+        "difficulty": "Hard",
+        "hint": "Explain the LIFO principle and give a simple example.",
+        "category": "General Programming"
+    },
+    {
+        "id": 10,
+        "question": "What is a queue and how does it work?",
+        "difficulty": "Hard",
+        "hint": "Explain the FIFO principle and give a simple example.",
+        "category": "General Programming"
+    },
+    {
+        "id": 11,
+        "question": "What is Object-Oriented Programming (OOP)?",
+        "difficulty": "Advanced",
+        "hint": "Explain the main idea behind objects and classes.",
+        "category": "General Programming"
+    },
+    {
+        "id": 12,
+        "question": "What is inheritance in Object-Oriented Programming?",
+        "difficulty": "Advanced",
+        "hint": "Explain how one class can acquire properties and methods from another.",
+        "category": "General Programming"
+    },
+    {
+        "id": 13,
+        "question": "What is encapsulation in Object-Oriented Programming?",
+        "difficulty": "Advanced",
+        "hint": "Explain how data and methods can be protected inside a class.",
+        "category": "General Programming"
+    },
+    {
+        "id": 14,
+        "question": "What is polymorphism in Object-Oriented Programming?",
+        "difficulty": "Advanced",
+        "hint": "Explain how the same method or interface can behave differently.",
+        "category": "General Programming"
+    },
+    {
+        "id": 15,
+        "question": "What is the difference between compile-time and runtime errors?",
+        "difficulty": "Advanced",
+        "hint": "Explain when each type of error occurs and give an example.",
+        "category": "General Programming"
+    }
+    ,
+{
+    "id": 1,
+    "question": "What is Python and what are its main features?",
+    "difficulty": "Beginner",
+    "hint": "Mention features such as readability, interpreted execution, and dynamic typing.",
+    "category": "Python"
+},
+{
+    "id": 2,
+    "question": "What is a variable in Python?",
+    "difficulty": "Beginner",
+    "hint": "Explain how variables store values in Python.",
+    "category": "Python"
+},
+{
+    "id": 3,
+    "question": "What are the basic data types in Python?",
+    "difficulty": "Beginner",
+    "hint": "Mention common types such as int, float, string, and boolean.",
+    "category": "Python"
+},
+{
+    "id": 4,
+    "question": "What is the difference between a list and a tuple in Python?",
+    "difficulty": "Easy",
+    "hint": "Compare their mutability and common uses.",
+    "category": "Python"
+},
+{
+    "id": 5,
+    "question": "What is a dictionary in Python?",
+    "difficulty": "Easy",
+    "hint": "Explain key-value pairs and give a simple example.",
+    "category": "Python"
+},
+{
+    "id": 6,
+    "question": "What is a set in Python?",
+    "difficulty": "Easy",
+    "hint": "Explain how sets store unique values.",
+    "category": "Python"
+},
+{
+    "id": 7,
+    "question": "What is a function in Python?",
+    "difficulty": "Medium",
+    "hint": "Explain how functions are defined and why they are useful.",
+    "category": "Python"
+},
+{
+    "id": 8,
+    "question": "What is the difference between == and is in Python?",
+    "difficulty": "Medium",
+    "hint": "Explain value comparison versus object identity.",
+    "category": "Python"
+},
+{
+    "id": 9,
+    "question": "What are *args and **kwargs in Python?",
+    "difficulty": "Medium",
+    "hint": "Explain how they allow functions to accept variable numbers of arguments.",
+    "category": "Python"
+},
+{
+    "id": 10,
+    "question": "What is a list comprehension in Python?",
+    "difficulty": "Medium",
+    "hint": "Explain how it creates a list using a compact syntax.",
+    "category": "Python"
+},
+{
+    "id": 11,
+    "question": "What is exception handling in Python?",
+    "difficulty": "Hard",
+    "hint": "Explain try, except, and finally.",
+    "category": "Python"
+},
+{
+    "id": 12,
+    "question": "What is the difference between shallow copy and deep copy in Python?",
+    "difficulty": "Hard",
+    "hint": "Explain how nested objects are copied.",
+    "category": "Python"
+},
+{
+    "id": 13,
+    "question": "What is a class and object in Python?",
+    "difficulty": "Advanced",
+    "hint": "Explain how classes define objects and their properties or methods.",
+    "category": "Python"
+},
+{
+    "id": 14,
+    "question": "What is inheritance in Python?",
+    "difficulty": "Advanced",
+    "hint": "Explain how a class can inherit properties and methods from another class.",
+    "category": "Python"
+},
+{
+    "id": 15,
+    "question": "What is a decorator in Python?",
+    "difficulty": "Advanced",
+    "hint": "Explain how decorators modify or extend the behavior of functions.",
+    "category": "Python"
+},
+{
+    "id": 1,
+    "question": "What is Java and what are its main features?",
+    "difficulty": "Beginner",
+    "hint": "Mention features such as object-oriented programming, platform independence, and security.",
+    "category": "Java"
+},
+{
+    "id": 2,
+    "question": "What is a variable in Java?",
+    "difficulty": "Beginner",
+    "hint": "Explain how variables store values and mention a simple example.",
+    "category": "Java"
+},
+{
+    "id": 3,
+    "question": "What are the basic data types in Java?",
+    "difficulty": "Beginner",
+    "hint": "Mention primitive types such as int, double, char, and boolean.",
+    "category": "Java"
+},
+{
+    "id": 4,
+    "question": "What is the difference between a for loop and a while loop in Java?",
+    "difficulty": "Easy",
+    "hint": "Explain when each loop is commonly used.",
+    "category": "Java"
+},
+{
+    "id": 5,
+    "question": "What is a method in Java?",
+    "difficulty": "Easy",
+    "hint": "Explain what a method does and why it is useful.",
+    "category": "Java"
+},
+{
+    "id": 6,
+    "question": "What is the difference between == and equals() in Java?",
+    "difficulty": "Medium",
+    "hint": "Explain reference comparison versus content comparison.",
+    "category": "Java"
+},
+{
+    "id": 7,
+    "question": "What is a constructor in Java?",
+    "difficulty": "Medium",
+    "hint": "Explain when a constructor is called and what it is used for.",
+    "category": "Java"
+},
+{
+    "id": 8,
+    "question": "What is inheritance in Java?",
+    "difficulty": "Medium",
+    "hint": "Explain how one class can inherit properties and methods from another.",
+    "category": "Java"
+},
+{
+    "id": 9,
+    "question": "What is encapsulation in Java?",
+    "difficulty": "Medium",
+    "hint": "Explain how data can be protected using classes and access modifiers.",
+    "category": "Java"
+},
+{
+    "id": 10,
+    "question": "What is polymorphism in Java?",
+    "difficulty": "Hard",
+    "hint": "Explain how the same method can behave differently in different situations.",
+    "category": "Java"
+},
+{
+    "id": 11,
+    "question": "What is the difference between an abstract class and an interface in Java?",
+    "difficulty": "Hard",
+    "hint": "Compare their purpose and how they are used.",
+    "category": "Java"
+},
+{
+    "id": 12,
+    "question": "What is exception handling in Java?",
+    "difficulty": "Hard",
+    "hint": "Explain try, catch, finally, and throw.",
+    "category": "Java"
+},
+{
+    "id": 13,
+    "question": "What is the Java Virtual Machine (JVM)?",
+    "difficulty": "Advanced",
+    "hint": "Explain how the JVM runs Java bytecode.",
+    "category": "Java"
+},
+{
+    "id": 14,
+    "question": "What is the difference between JDK, JRE, and JVM?",
+    "difficulty": "Advanced",
+    "hint": "Explain the role of each component in Java development and execution.",
+    "category": "Java"
+},
+{
+    "id": 15,
+    "question": "What is multithreading in Java?",
+    "difficulty": "Advanced",
+    "hint": "Explain how multiple threads can execute tasks concurrently.",
+    "category": "Java"
+},
+{
+    "id": 1,
+    "question": "What is the C programming language?",
+    "difficulty": "Beginner",
+    "hint": "Explain what C is commonly used for and mention one important feature.",
+    "category": "C"
+},
+{
+    "id": 2,
+    "question": "What is a variable in C?",
+    "difficulty": "Beginner",
+    "hint": "Explain how variables store values in C.",
+    "category": "C"
+},
+{
+    "id": 3,
+    "question": "What are the basic data types in C?",
+    "difficulty": "Beginner",
+    "hint": "Mention types such as int, float, char, and double.",
+    "category": "C"
+},
+{
+    "id": 4,
+    "question": "What is the difference between a for loop and a while loop in C?",
+    "difficulty": "Easy",
+    "hint": "Explain when each loop is commonly used.",
+    "category": "C"
+},
+{
+    "id": 5,
+    "question": "What is a function in C?",
+    "difficulty": "Easy",
+    "hint": "Explain why functions are useful for organizing code.",
+    "category": "C"
+},
+{
+    "id": 6,
+    "question": "What is a pointer in C?",
+    "difficulty": "Medium",
+    "hint": "Explain that a pointer stores the memory address of another variable.",
+    "category": "C"
+},
+{
+    "id": 7,
+    "question": "What is the difference between an array and a pointer in C?",
+    "difficulty": "Medium",
+    "hint": "Compare how arrays and pointers work with memory and addresses.",
+    "category": "C"
+},
+{
+    "id": 8,
+    "question": "What is a structure in C?",
+    "difficulty": "Medium",
+    "hint": "Explain how structures group different types of data.",
+    "category": "C"
+},
+{
+    "id": 9,
+    "question": "What is the difference between a structure and a union in C?",
+    "difficulty": "Medium",
+    "hint": "Compare how they store their members in memory.",
+    "category": "C"
+},
+{
+    "id": 10,
+    "question": "What is dynamic memory allocation in C?",
+    "difficulty": "Hard",
+    "hint": "Mention malloc, calloc, realloc, and free.",
+    "category": "C"
+},
+{
+    "id": 11,
+    "question": "What is a NULL pointer in C?",
+    "difficulty": "Hard",
+    "hint": "Explain what it represents and why it is useful.",
+    "category": "C"
+},
+{
+    "id": 12,
+    "question": "What is a dangling pointer in C?",
+    "difficulty": "Hard",
+    "hint": "Explain what happens when a pointer refers to memory that is no longer valid.",
+    "category": "C"
+},
+{
+    "id": 13,
+    "question": "What is recursion in C?",
+    "difficulty": "Advanced",
+    "hint": "Explain how a function can call itself and mention a base condition.",
+    "category": "C"
+},
+{
+    "id": 14,
+    "question": "What is the difference between call by value and passing a pointer in C?",
+    "difficulty": "Advanced",
+    "hint": "Explain how changes to variables are handled when using each approach.",
+    "category": "C"
+},
+{
+    "id": 15,
+    "question": "What is a memory leak in C and how can it be prevented?",
+    "difficulty": "Advanced",
+    "hint": "Explain what happens when dynamically allocated memory is not released.",
+    "category": "C"
+},
+{
+    "id": 1,
+    "question": "What is C++ and how is it different from C?",
+    "difficulty": "Beginner",
+    "hint": "Mention object-oriented programming and some major features of C++.",
+    "category": "C++"
+},
+{
+    "id": 2,
+    "question": "What is a variable in C++?",
+    "difficulty": "Beginner",
+    "hint": "Explain how variables store values and give a simple example.",
+    "category": "C++"
+},
+{
+    "id": 3,
+    "question": "What are the basic data types in C++?",
+    "difficulty": "Beginner",
+    "hint": "Mention types such as int, float, double, char, and bool.",
+    "category": "C++"
+},
+{
+    "id": 4,
+    "question": "What is the difference between a for loop and a while loop in C++?",
+    "difficulty": "Easy",
+    "hint": "Explain when each loop is commonly used.",
+    "category": "C++"
+},
+{
+    "id": 5,
+    "question": "What is a function in C++?",
+    "difficulty": "Easy",
+    "hint": "Explain why functions are useful for organizing and reusing code.",
+    "category": "C++"
+},
+{
+    "id": 6,
+    "question": "What is a class and an object in C++?",
+    "difficulty": "Medium",
+    "hint": "Explain how a class defines properties and methods and how objects are created from it.",
+    "category": "C++"
+},
+{
+    "id": 7,
+    "question": "What is a constructor in C++?",
+    "difficulty": "Medium",
+    "hint": "Explain when a constructor is called and what it initializes.",
+    "category": "C++"
+},
+{
+    "id": 8,
+    "question": "What is inheritance in C++?",
+    "difficulty": "Medium",
+    "hint": "Explain how a derived class can acquire members from a base class.",
+    "category": "C++"
+},
+{
+    "id": 9,
+    "question": "What is polymorphism in C++?",
+    "difficulty": "Medium",
+    "hint": "Explain how the same interface can have different behavior.",
+    "category": "C++"
+},
+{
+    "id": 10,
+    "question": "What is a pointer in C++?",
+    "difficulty": "Hard",
+    "hint": "Explain that a pointer stores a memory address.",
+    "category": "C++"
+},
+{
+    "id": 11,
+    "question": "What is a reference in C++?",
+    "difficulty": "Hard",
+    "hint": "Explain how a reference provides another name for an existing variable.",
+    "category": "C++"
+},
+{
+    "id": 12,
+    "question": "What is the difference between a pointer and a reference in C++?",
+    "difficulty": "Hard",
+    "hint": "Compare their syntax, nullability, and ability to be reassigned.",
+    "category": "C++"
+},
+{
+    "id": 13,
+    "question": "What is function overloading in C++?",
+    "difficulty": "Advanced",
+    "hint": "Explain how multiple functions can have the same name with different parameters.",
+    "category": "C++"
+},
+{
+    "id": 14,
+    "question": "What is a virtual function in C++?",
+    "difficulty": "Advanced",
+    "hint": "Explain its role in runtime polymorphism.",
+    "category": "C++"
+},
+{
+    "id": 15,
+    "question": "What is the Standard Template Library (STL) in C++?",
+    "difficulty": "Advanced",
+    "hint": "Mention containers, algorithms, and iterators.",
+    "category": "C++"
+},
+{
+    "id": 1,
+    "question": "What is SQL and what is it used for?",
+    "difficulty": "Beginner",
+    "hint": "Explain that SQL is used to work with data in relational databases.",
+    "category": "SQL"
+},
+{
+    "id": 2,
+    "question": "What is a database?",
+    "difficulty": "Beginner",
+    "hint": "Explain where structured data is stored and managed.",
+    "category": "SQL"
+},
+{
+    "id": 3,
+    "question": "What is a table in a database?",
+    "difficulty": "Beginner",
+    "hint": "Explain rows and columns.",
+    "category": "SQL"
+},
+{
+    "id": 4,
+    "question": "What is the difference between a primary key and a foreign key?",
+    "difficulty": "Easy",
+    "hint": "Explain how each key identifies or connects records.",
+    "category": "SQL"
+},
+{
+    "id": 5,
+    "question": "What is the difference between WHERE and HAVING in SQL?",
+    "difficulty": "Easy",
+    "hint": "Explain when each clause filters data.",
+    "category": "SQL"
+},
+{
+    "id": 6,
+    "question": "What is a JOIN in SQL?",
+    "difficulty": "Medium",
+    "hint": "Explain how data from multiple tables can be combined.",
+    "category": "SQL"
+},
+{
+    "id": 7,
+    "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+    "difficulty": "Medium",
+    "hint": "Compare which records are returned from the two tables.",
+    "category": "SQL"
+},
+{
+    "id": 8,
+    "question": "What is normalization in a database?",
+    "difficulty": "Medium",
+    "hint": "Explain how normalization reduces duplicate data.",
+    "category": "SQL"
+},
+{
+    "id": 9,
+    "question": "What is an index in SQL?",
+    "difficulty": "Medium",
+    "hint": "Explain how indexes can improve query performance.",
+    "category": "SQL"
+},
+{
+    "id": 10,
+    "question": "What is the difference between DELETE, DROP, and TRUNCATE?",
+    "difficulty": "Hard",
+    "hint": "Compare what each command removes and how it affects a table.",
+    "category": "SQL"
+},
+{
+    "id": 11,
+    "question": "What is a SQL constraint?",
+    "difficulty": "Hard",
+    "hint": "Mention constraints such as PRIMARY KEY, FOREIGN KEY, UNIQUE, and NOT NULL.",
+    "category": "SQL"
+},
+{
+    "id": 12,
+    "question": "What is a subquery in SQL?",
+    "difficulty": "Hard",
+    "hint": "Explain how one query can be used inside another query.",
+    "category": "SQL"
+},
+{
+    "id": 13,
+    "question": "What is a transaction in a database?",
+    "difficulty": "Advanced",
+    "hint": "Explain how multiple database operations can be treated as one unit.",
+    "category": "SQL"
+},
+{
+    "id": 14,
+    "question": "What is the difference between COMMIT and ROLLBACK?",
+    "difficulty": "Advanced",
+    "hint": "Explain how they affect changes made during a transaction.",
+    "category": "SQL"
+},
+{
+    "id": 15,
+    "question": "What are ACID properties in database transactions?",
+    "difficulty": "Advanced",
+    "hint": "Explain Atomicity, Consistency, Isolation, and Durability.",
+    "category": "SQL"
+}
+]

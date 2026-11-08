@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>InterviewIQ - Interview Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <main class="result-container">
+
+        <div class="result-card">
+
+            <div class="result-icon">
+                🎉
+            </div>
+
+            <h1>Interview Complete!</h1>
+
+            <p class="result-subtitle">
+              Great job! Here is your interview performance.
+            </p>
+
+            <div class="result-category" id="category">
+              General Programming
+            </div>
+
+
+            <div class="final-score">
+
+                <span>YOUR SCORE</span>
+
+                <strong id="score">
+                    0 / 0
+                </strong>
+
+            </div>
+
+
+            <div class="result-details">
+
+                <div class="result-item">
+
+                    <span>Questions Answered</span>
+
+                    <strong id="questions">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="result-item">
+
+                    <span>Average Score</span>
+
+                    <strong id="average">
+                        0 / 10
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div id="performance" class="performance">
+                Keep practicing! 💪
+            </div>
+
+
+            <button
+                class="start-btn"
+                onclick="tryAgain()">
+
+                Try Again
+
+            </button>
+
+
+            <button
+                class="home-btn"
+                onclick="goHome()">
+
+                Back to Home
+
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script>
+
+        const totalScore =
+            parseInt(localStorage.getItem("totalScore")) || 0;
+
+        const totalQuestions =
+            parseInt(localStorage.getItem("totalQuestions")) || 0;
+
+        const category =
+         localStorage.getItem("category") || "General Programming";
+
+        document.getElementById("category").textContent =
+         category;
+        const history =
+          JSON.parse(localStorage.getItem("interviewHistory")) || [];
+
+        const interviewSaved =
+         localStorage.getItem("interviewSaved");
+
+        if (interviewSaved !== "true") {
+
+        history.push({
+        category: category,
+        totalScore: totalScore,
+        totalQuestions: totalQuestions,
+        date: new Date().toLocaleString()
+        });
+
+         localStorage.setItem(
+        "interviewHistory",
+        JSON.stringify(history)
+        );
+
+        localStorage.setItem(
+        "interviewSaved",
+        "true"
+        );
+        }
+
+        document.getElementById("score").textContent =
+            totalScore + " / " + (totalQuestions * 10);
+
+
+        document.getElementById("questions").textContent =
+            totalQuestions;
+
+
+        const average =
+            totalQuestions > 0
+                ? (totalScore / totalQuestions).toFixed(1)
+                : 0;
+
+
+        document.getElementById("average").textContent =
+            average + " / 10";
+
+
+        const performance =
+            document.getElementById("performance");
+
+
+        if (average >= 8) {
+
+            performance.textContent =
+                "⭐ Excellent performance!";
+
+        } else if (average >= 6) {
+
+            performance.textContent =
+                "👍 Good performance! Keep improving.";
+
+        } else {
+
+            performance.textContent =
+                "💪 Keep practicing and improve your skills!";
+
+        }
+
+
+        function tryAgain() {
+        const category =
+        localStorage.getItem("category") || "General Programming";
+
+        localStorage.removeItem("totalScore");
+        localStorage.removeItem("totalQuestions");
+
+        window.location.href =
+        "/interview?category=" + encodeURIComponent(category);
+         }
+
+
+        function goHome() {
+         localStorage.removeItem("totalScore");
+         localStorage.removeItem("totalQuestions");
+          localStorage.removeItem("category");
+
+         window.location.href = "/";
+        }
+
+    </script>
+
+</body>
+
+</html>
