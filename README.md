@@ -96,6 +96,10 @@ Developed as a PGDCA final-year project to explore Python web development and lo
 
 GitHub: [sandra000666](https://github.com/sandra000666)
 
+## Application Preview
+
+![InterviewIQ Home Page](InterviewIQ-Home.png)
+
 ---
 
 *Built with Python, Flask and a passion for learning AI.*
